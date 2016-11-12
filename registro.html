@@ -1,0 +1,52 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>Panel de Administración</title>
+  <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript"  href="./js/scripts.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="menu2">
+    <menu>
+    <li><a href="./">Inicio</a></li>
+    
+    <li><a href="login.php">Iniciar Sesion</a></li>
+    </menu>
+    </nav>
+  
+    <a href="./carritodecompras.php" title="ver carrito de compras">
+      <img src="./imagenes/carrito.png">
+    </a>
+    
+  </header>
+  <section>
+  
+  <form action="agrega.php" method="post">
+<p> Nombre: <input type="text" name="nombre" placeholder="Nombre"/>
+<p> Apellido Paterno: <input type="text" name="app" placeholder="Appellido Paterno"/>
+<p> Usuario: <input type="text" name="user" placeholder="Nombre de Usuario"/>
+<p> Contraseña: <input type="password" name="pass" placeholder="Escribe tu Contraseña"/>
+
+</p>
+<input type="submit" name="registrar" value="Registrar"/>
+
+
+</form>
+
+
+  </section>
+</body>
+</html>
+
+
+
+
